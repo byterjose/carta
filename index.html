@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ CARTA DE AMOR ♥</title>
+  <style>
+    .body {
+      background-color: rgba(255,189,191,255);
+      text-align: center;
+    }
+
+    .body__title {
+      color: rgb(255, 0, 0);
+      font-size: 40px;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 60%;
+      max-height: 60%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ CARTA DE AMOR PARA EDGLE ♥</h1>
+  <img src="./1.png" alt="Foto D My" class="body__img" />
+  <img src="./2.png" alt="Foto D My" class="body__img" />
+  <a href="https://www.youtube.com/watch?v=F0l8liH6SIg&ab_channel=ScropOficial"><img src="./3.jpg" alt="Foto D My" class="body__img" /></a>
+  <br>
+  <!-- <button id="yes">🌚 Si quiero ser Tu novia/Futura esposa para toda la vida 🌚</button>
+  <button id="no">😭No quiero Serlo.😭</button> -->
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Ahora estamos juntos para toda la vida💞');
+      alert('😱Tenemos una vida por delantes juntos😱');
+      location.href = 'https://www.youtube.com/watch?v=_qDML_BCju8&t=104s&ab_channel=7clouds';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
